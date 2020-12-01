@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  }
+
+  header {
+
+  background: #FCEA10;
+margin: 0px 0px 30px 0px;
+
+  }
+
+  section {
+    padding: 20px;
+
+    margin: 20px;
+  }
+
+h1 {
+  position: relative;
+  left: 50%;
+
+}
+.title {
+  background: black;
+  margin: 20px;
+
+}
+
+  .guval {
+    width: 100px;
+    margin: 15px 25px;
+  }
+
+  .yo {
+    width: 300px;
+    margin: 10px;
+    float:left;
+    transition: 1s;
+  }
+
+  .bolt {
+  position: absolute;
+  width: 8%;
+  margin: 10px;
+  top:500px;
+  animation-name: shock;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+
+  }
+
+  .yo:hover {
+    width: 500px;
+    transition: 1s;
+
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  @keyframes shock {
+    from {
+      transform: translateY(-320px);
+    }
+    to {
+      transform: translateY(-150px);
+    }
+
+  }
+
+.bottom {
+  background: #FCEA10;
+  width: 8.5%;
+  margin: 10px;
+  padding: 5px;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+
+  }
